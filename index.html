@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Object Recognition</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<h1>Object Recognition</h1>
+<div id="instructions">
+<h2>Step-by-step instructions</h2>
+<ul>
+  <li>Select the image with one or more students</li>
+  <li>Students should wear uniforms. Therefore, we do not consider that people may be students but do not wear uniforms</li>
+  <li>There are least 5 images should be seleceted</li>
+  <li>Press the submit button once you have finished the tasks</li>
+  <li>Here are the examples for you:</li>
+</ul>
+<table>
+	<tr>
+		<td id="example_yes"><img src="img/ex1.jpg" alt="example_img1"></td>
+		<td id="example_yes"><img src="img/ex2.jpg" alt="example_img2"></td>
+		<td id="example_no"><img src="img/ex3.jpg" alt="example_img3"></td>
+		<td id="example_no"><img src="img/ex4.jpg" alt="example_img4"></td>
+	</tr>
+</table>
+</div>
+
+
+<form id="form">
+<table>
+	<tr>
+		<td>
+		  <img src="img/img1.jpg" alt="img1" id="canditate_img">
+		  <input type="checkbox" name="checkBox" value="img1 positive">	
+		</td>
+		<td>
+		  <img src="img/img2.jpg" alt="img2" id="canditate_img">
+		  <input type="checkbox" name="checkBox" value="img2 positive">
+		</td>
+		<td>
+		  <img src="img/img3.jpg" alt="img3" id="canditate_img">
+		  <input type="checkbox" name="checkBox" value="img3 positive">	
+		</td>
+	</tr>
+	<tr>
+		<td>
+		  <img src="img/img4.jpg" alt="img4" id="canditate_img">
+		  <input type="checkbox" name="checkBox" value="img4 positive">	
+		</td>
+		<td>
+		  <img src="img/img5.jpg" alt="img5" id="canditate_img">
+		  <input type="checkbox" name="checkBox" value="img5 positive">
+		</td>
+		<td>
+		  <img src="img/img6.jpg" alt="img6" id="canditate_img">
+		  <input type="checkbox" name="checkBox" value="img6 positive">	
+		</td>
+	</tr>
+	<tr>
+		<td>
+		  <img src="img/img7.jpg" alt="img7" id="canditate_img">
+		  <input type="checkbox" name="checkBox" value="img7 positive">	
+		</td>
+		<td>
+	      <img src="img/img8.jpg" alt="img8" id="canditate_img">
+		  <input type="checkbox" name="checkBox" value="img8 positive">
+		</td>
+		<td>
+		  <img src="img/img9.jpg" alt="img9" id="canditate_img">
+		  <input type="checkbox" name="checkBox" value="img9 positive">	
+		</td>
+	</tr>
+
+</table>
+<p id="submitHit">
+<input type="submit" name="submitButton" value="Submit HIT!">
+</p>
+</form>
+
+<script src="js/script.js"></script>
+</body>
+</html>

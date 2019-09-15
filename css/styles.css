@@ -1,0 +1,42 @@
+h1 {
+	color:;
+	font-size:;
+}
+table {
+	/*border: 2px solid black;*/
+	width: 100%;
+	table-layout: auto;
+	margin:;
+	padding: 0px;
+}
+td {
+	border: 2px solid black;
+	padding: 10px;
+	text-align: center;
+}
+p {
+	padding:;
+}
+img {
+	display: block;
+	width: 100%;
+}
+h2 {
+	padding: 0 0 0 10px;
+}
+#instructions {
+	border: 1px solid grey;
+	margin: 10px 0 20px 0;
+	padding: 0 5px 0 5px;
+}
+#submitHit {
+	text-align: center;
+}
+#example_yes {
+	border: 2px lightgreen solid;
+	width: 25%;
+}
+#example_no {
+	border: 2px red solid;
+	width: 25%;
+}
