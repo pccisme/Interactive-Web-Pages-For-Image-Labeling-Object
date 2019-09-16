@@ -1,18 +1,25 @@
+* {
+	box-sizing: border-box;
+	font-family: "Helvetica Neue", Helvetica;
+}
 h1 {
-	color:;
-	font-size:;
+	color: orange;
+	text-align: center;
 }
 table {
 	/*border: 2px solid black;*/
 	width: 100%;
 	table-layout: auto;
-	margin:;
+	/*margin:;*/
 	padding: 0px;
 }
 td {
 	border: 2px solid black;
 	padding: 10px;
 	text-align: center;
+}
+li {
+	font-size: 1.2em;
 }
 p {
 	padding:;
@@ -29,7 +36,7 @@ h2 {
 	margin: 10px 0 20px 0;
 	padding: 0 5px 0 5px;
 }
-#submitHit {
+#submitButton {
 	text-align: center;
 }
 #example_yes {
