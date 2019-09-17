@@ -8,33 +8,37 @@
 <body>
 <h1>Object Recognition: Is there any student?</h1>
 <div id="instructions">
+
 <h2>Step-by-step instructions</h2>
 <ol>
   <li>Select all images with one or more students</li>
   <li>There is least one image should be seleceted</li>
-  <li>Check again and again before you submit</li>
-  <li>Press the submit button once you have finished the tasks</li>
+  <li>Leave your comment if you encounter any issue</li>
+  <li>Check again before you submit</li>
+  <li>Press the submit button once you have finished above</li>
 </ol>
+
 <h2>Attention!</h2>
 <ul>
-  <li>In this case, students should wear school uniforms. Therefore, we do not consider that people may be students but do not wear uniforms</li>
+  <li>In this case, students should wear school uniforms. Therefore, we do not consider that people may be students but do not wear school uniforms</li>
   <li>Check the examples below before starting your task:</li>
 </ul>
 
-<br><br>
-
 <table>
 	<tr>
-		<td id="example_yes"><img src="img/ex1.jpg" alt="example_img1"></td>
-		<td id="example_yes"><img src="img/ex2.jpg" alt="example_img2"></td>
-		<td id="example_no"><img src="img/ex3.jpg" alt="example_img3"></td>
-		<td id="example_no"><img src="img/ex4.jpg" alt="example_img4"></td>
+		<td id="example_yes"><img src="img/ex1.jpg" alt="example_img1"><br><p id="true">True</p></td>
+		<td id="example_yes"><img src="img/ex2.jpg" alt="example_img2"><br><p id="true">True</p></td>
+		<td id="example_no"><img src="img/ex3.jpg" alt="example_img3"><br><p id="false">False</p></td>
+		<td id="example_no"><img src="img/ex4.jpg" alt="example_img4"><br><p id="false">False</p></td>
 	</tr>
 </table>
 </div>
 
+<br>
+<h2>Let's get started:</h2>
 
 <form id="form">
+
 <table>
 	<tr>
 		<td>
@@ -78,14 +82,15 @@
 		  <input type="checkbox" name="checkBox" value="img9 positive">	
 		</td>
 	</tr>
-
 </table>
-<p id="submitButton">
-<input type="submit" name="submitButton" value="Submit!" >
-</p>
+
+	<div>
+		<p>Leave your comment here:</p>
+		<input class="comment_input" type="comment" name="comment"><br>
+		<input id="submitButton" type="submit" name="submitButton" value="Submit!" >
+	</div>
 </form>
 
 <script src="js/script.js"></script>
 </body>
-
 </html>
