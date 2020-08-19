@@ -10,8 +10,6 @@ Creating the dataset is the most important part of the research of Computer Visi
 
 In the first part of the webpage, I give the step-by-step instructions and also positive and negative examples. And the workers can label the image by clicking on its checkbox. Then, the worker can send the comment before they submit. If the workers notice any issues, they can write comments to point out the problem for us.
 
-## Screenshots
-
 ## Images
 
 The images used in this project/webpage are taken by myself on a trip to Kyoto and Osaka.
